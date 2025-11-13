@@ -1,6 +1,8 @@
 import { hashMap } from "./hashMap.js";
+import { hashSet } from "./hashSet.js";
 
 const test = hashMap();
+const test2 = hashSet();
 
 test.set('apple', 'red')
 test.set('banana', 'yellow')
@@ -33,3 +35,7 @@ console.log(test.entries());
 console.log(test.keys());
 test.clear();
 console.log(test.entries());
+
+///////
+
+
